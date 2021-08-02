@@ -3,5 +3,4 @@ server:
     8070
 
 lob:
-#  apiKey: live_13221ada05a122931a75ed008ee30fa353f
-  apiKey: test_6fb09322e885078a5a92210d3aa752c7426
+  apiKey: ${apiKey}
