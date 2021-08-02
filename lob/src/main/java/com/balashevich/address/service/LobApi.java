@@ -62,7 +62,6 @@ public class LobApi {
             usAutocompletion = response.getResponseBody();
         } catch (APIException | RateLimitException | AuthenticationException | InvalidRequestException | IOException e) {
             log.error("Error when retrieving Us Autocomplete data from lob");
-            e.printStackTrace();
             throw new LobException("Error when retrieving Us Autocomplete data from lob",
                     HttpStatus.INTERNAL_SERVER_ERROR,
                     ErrorCode.LOB_EXCEPTION);
