@@ -15,10 +15,10 @@ request example:
 response example:
 ```
 {
-    "primaryNumber": "",
+    "primaryNumber": "191",
     "streetPredirection": "",
-    "streetName": "",
-    "streetSuffix": "",
+    "streetName": "WALNUT",
+    "streetSuffix": "ST",
     "streetPostdirection": "",
     "secondaryDesignator": "",
     "secondaryNumber": "",
@@ -26,19 +26,21 @@ response example:
     "pmbNumber": "",
     "extraSecondaryDesignator": "",
     "extraSecondaryNumber": "",
-    "city": "",
-    "state": "",
-    "zipCode": "",
-    "zipCodePlus4": "",
-    "zipCodeType": "",
-    "deliveryPointBarcode": "",
-    "addressType": "",
-    "recordType": "",
+    "city": "LIVINGSTON",
+    "state": "NJ",
+    "zipCode": "07039",
+    "zipCodePlus4": "5005",
+    "zipCodeType": "standard",
+    "deliveryPointBarcode": "070395005911",
+    "addressType": "residential",
+    "recordType": "street",
     "defaultBuildingAddress": "false",
-    "county": "",
-    "countyFips": "",
-    "carrierRoute": "",
-    "carrierRouteType": ""
+    "county": "ESSEX",
+    "countyFips": "34013",
+    "carrierRoute": "C038",
+    "carrierRouteType": "city_delivery",
+    "latitude": "40.785327",
+    "longitude": "-74.349098"
 }
 ```
 
