@@ -6,10 +6,10 @@ endpoint: ``` GET http://localhost:8070/api/v1/lobs/us_verifications ```
 request example:
 ```
 {
-    "zip_code": "",
-    "primary_line": "185 Berry Street",
-    "city": "San Francisco",
-    "state": "SA"
+    "zip_code": "07039",
+    "primary_line": "Walnut St 191 ",
+    "city": "",
+    "state": ""
 }
 ```
 response example:
